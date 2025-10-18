@@ -24,6 +24,7 @@ Feature: Dashboard Functionality
     And  user should validate drop down field "<catLogDropDown>"
     Then user click on Attributes button
     And user should validate drop down field"<AttributeDropdown>"
+    #my name is samar
 
     Examples:
       |LoginLabel               | EmailAdd            | password | DashboardLabel | catLogDropDown                                                            | AttributeDropdown                                               |
