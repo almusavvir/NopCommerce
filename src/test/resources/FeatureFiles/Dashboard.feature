@@ -30,6 +30,15 @@ Feature: Dashboard Functionality
       |LoginLabel               | EmailAdd            | password | DashboardLabel | catLogDropDown                                                            | AttributeDropdown                                               |
       |Welcome, please sign in! | admin@yourstore.com | admin    | Dashboard | Products,Categories,Manufacturers,Product reviews,Product tags,Attributes | Product attributes,specification attributes,checkout attributes |
 
+#my own scenario which I have created
+#  my own scenario which I have created
+#  my own scenario which I have created
+#  my own scenario which I have created
+#  my own scenario which I have created
+#  my own scenario which I have created
+#  my own scenario which I have created
+#  my own scenario which I have created
+#    
 
   Scenario Outline: TC_11_sales
     Then user should validate login dashboard label "<LoginLabel>" text
